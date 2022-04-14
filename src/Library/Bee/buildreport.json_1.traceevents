@@ -1,0 +1,590 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1649903948377078, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903948378388, "dur": 33770, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903948412428, "dur": 120657, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903948533105, "dur": 10132, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903951913847, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903951914058, "dur": 4329, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903951918391, "dur": 32072, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903951950500, "dur": 204476, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903952154980, "dur": 639940, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903952794923, "dur": 12749, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903952808219, "dur": 49, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1649903952013836, "dur": 108859, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649903952014652, "dur": 32028, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649903952110138, "dur": 3497, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649903952113638, "dur": 9051, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649903952114167, "dur": 8009, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649903952126055, "dur": 998, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649903952125415, "dur": 1656, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903952808361, "dur": 133, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1649903952182697, "dur":933, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952183635, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1649903952183694, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1649903952183710, "dur":411, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1649903952184137, "dur":340, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952184477, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952771798, "dur":175, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952771973, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952771997, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952771999, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772011, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772012, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772019, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772021, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772027, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772028, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772033, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772034, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772039, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772040, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772044, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772046, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772051, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772052, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772057, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772058, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772064, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772065, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772070, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772071, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772076, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772077, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772083, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772084, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772089, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772091, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772096, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772098, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772103, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772114, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952772171, "dur":1261, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1649903952184092, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952184483, "dur":3048, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952187541, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649903952187544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952188226, "dur":294, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649903952188522, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649903952188555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952188681, "dur":5539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649903952194223, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1649903952194316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952194321, "dur":126153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1649903952320507, "dur":24278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952344789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952344799, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952345529, "dur":36183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952381719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952381729, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952382765, "dur":66813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952449582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952449591, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952450316, "dur":71100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952521423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952521433, "dur":18125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952539588, "dur":56462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952596057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952596067, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952596977, "dur":135945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952732926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649903952732933, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649903952733650, "dur":38147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952184120, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952184489, "dur":3048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952187540, "dur":7883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1649903952195426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952195435, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1649903952195984, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1649903952196063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952252870, "dur":11431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1649903952264331, "dur":60710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952325045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952325051, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952326530, "dur":19732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952346266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952346272, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952347676, "dur":22860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952370540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952370546, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952371281, "dur":16781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952388065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952388071, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952389431, "dur":55166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952444602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952444611, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952445453, "dur":83906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952529364, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952529375, "dur":24677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952554085, "dur":36054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952590142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952590150, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952590789, "dur":34376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952625192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649903952625200, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649903952625978, "dur":145816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952184114, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952184485, "dur":3053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952187540, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1649903952187677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952188699, "dur":64198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1649903952252932, "dur":32349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952285285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952285294, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952285909, "dur":82904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952368817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952368823, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952369772, "dur":15025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952384801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952384808, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952387086, "dur":80227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952467318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952467325, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952469254, "dur":209027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952678285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649903952678291, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649903952679045, "dur":92751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952184146, "dur":350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952184496, "dur":3050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952187547, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1649903952187679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952188935, "dur":5537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1649903952194496, "dur":83479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952277981, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952278066, "dur":5037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952283136, "dur":20055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952303198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952303208, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952305725, "dur":62934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952368662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952368670, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952370035, "dur":17191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952387229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952387238, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952388086, "dur":16273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952404364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952404371, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952406302, "dur":53046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952459353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952459360, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952460700, "dur":566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952461287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952461301, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952462891, "dur":25911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952488806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952488813, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952489520, "dur":111144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952600668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952600675, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952601855, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952602597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952603100, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952604093, "dur":1593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952605690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952605777, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649903952607343, "dur":6512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":4, "ts":1649903952613859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952614077, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":4, "ts":1649903952614917, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649903952614948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952614953, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649903952616266, "dur":841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1649903952617111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952617116, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1649903952617771, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649903952617796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952617800, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649903952620838, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1649903952620864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649903952620869, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1649903952623665, "dur":148139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952184140, "dur":353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952184493, "dur":3042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952187540, "dur":16056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1649903952203603, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952203908, "dur":49134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1649903952253067, "dur":16862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952269933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952269944, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952271451, "dur":18085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952289542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952289551, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952290345, "dur":97615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952387964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952387971, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952389366, "dur":18143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952407512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952407520, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952408190, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952408854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952408861, "dur":8931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952417833, "dur":109794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952527634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952527646, "dur":27501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952555173, "dur":120790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952675984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649903952675991, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649903952676745, "dur":95056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952184171, "dur":329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952184500, "dur":3042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952187544, "dur":5828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1649903952193375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952193381, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1649903952194260, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1649903952194346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952194351, "dur":59038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1649903952253431, "dur":30795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952284230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952284238, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952285825, "dur":27068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952312899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952312906, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952313559, "dur":102039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952415602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952415611, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952417966, "dur":49108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952467080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952467091, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952467924, "dur":81996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952549926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952549937, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952554233, "dur":65070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952619307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952619313, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649903952620246, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1649903952620271, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952620279, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1649903952623431, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1649903952623532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649903952623539, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1649903952624208, "dur":147585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952184181, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952184503, "dur":3036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952187541, "dur":5972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1649903952193516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952193525, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1649903952194339, "dur":24183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952218527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952218787, "dur":34714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952253527, "dur":15939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952269470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952269757, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952270885, "dur":19405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952290295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952290302, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952290997, "dur":91562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952382564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952382572, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952383730, "dur":20436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952404172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952404187, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952405511, "dur":79306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952484821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952484827, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952485534, "dur":170166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952655708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649903952655718, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649903952658688, "dur":113101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952184199, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952184506, "dur":3030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952187543, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1649903952187709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952192323, "dur":60977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1649903952253335, "dur":29369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952282709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952282716, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952284101, "dur":24576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952308683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952308690, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952309575, "dur":36035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952345614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952345621, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952346602, "dur":16206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952362814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952362823, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952363619, "dur":77438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952441063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952441073, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952442086, "dur":29779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952471870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952471881, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952472646, "dur":30430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952503082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952503092, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952503993, "dur":103009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952607007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952607015, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649903952608067, "dur":4291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":8, "ts":1649903952612364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952612786, "dur":625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":8, "ts":1649903952613437, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1649903952613474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952613517, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1649903952614386, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649903952614416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952614422, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649903952615603, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1649903952615682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952615687, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1649903952616399, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649903952616424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952616429, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649903952619034, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649903952619061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952619066, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649903952620584, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1649903952620611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649903952620615, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1649903952623721, "dur":148077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952184222, "dur":287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952184509, "dur":3032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952187542, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1649903952187739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952192613, "dur":60711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1649903952253355, "dur":29016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952282378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952282387, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952283382, "dur":40964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952324355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952324361, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952325851, "dur":19815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952345669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952345675, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952346954, "dur":36056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952383014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952383021, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952384048, "dur":16319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952400372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952400381, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952401146, "dur":83895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952485049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952485055, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952487073, "dur":102025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952589105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952589116, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952589996, "dur":77422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952667422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649903952667428, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649903952668189, "dur":103610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952184238, "dur":274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952184513, "dur":3030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952187545, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1649903952187692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952192020, "dur":60784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1649903952252835, "dur":41717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952294556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952294575, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952295340, "dur":28863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952324208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952324217, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952325140, "dur":20684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952345828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952345834, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952347138, "dur":25713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952372856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952372866, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952373613, "dur":41350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952414970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952414980, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952418282, "dur":29156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952447443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952447454, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952448178, "dur":81867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952530049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952530057, "dur":24375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952554456, "dur":36506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952590965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952590971, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952591633, "dur":177849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952769485, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649903952769492, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649903952771763, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1649903952771765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952184267, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952184515, "dur":3047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952187562, "dur":6695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1649903952194275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952194285, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1649903952194912, "dur":59172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1649903952254087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952254093, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1649903952255451, "dur":17381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952272836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952272845, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952273561, "dur":30231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952303797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952303805, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952304606, "dur":36335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952340947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952340957, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952341929, "dur":17107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952359042, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952359054, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952359858, "dur":31918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952391782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952391791, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952392619, "dur":62598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952455224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952455236, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952456182, "dur":57322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952513512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952513523, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952514747, "dur":55731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952570484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952570497, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952571480, "dur":73677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952645164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649903952645175, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649903952646233, "dur":125573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952184284, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952184519, "dur":3039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952187558, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1649903952187745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952192965, "dur":60002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1649903952252997, "dur":15750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952268754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952269478, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952270830, "dur":21071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952291905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952291911, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952292555, "dur":19422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952311982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952311991, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952312783, "dur":16833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952329622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952329630, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952330454, "dur":16170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952346627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952346634, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952348293, "dur":18945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952367244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952367264, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952368373, "dur":16386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952384781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952384789, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952387441, "dur":16874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952404319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952404326, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952405998, "dur":53273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952459276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952459286, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952460683, "dur":169376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952630064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649903952630076, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649903952631494, "dur":140301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952184299, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952184522, "dur":3023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952187546, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1649903952187686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952189063, "dur":126926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1649903952316022, "dur":81265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952397294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952397304, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952398190, "dur":86179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952484374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952484383, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952485115, "dur":68063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952553184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952553193, "dur":5168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952558393, "dur":148722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952707119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649903952707125, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649903952708618, "dur":63187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952184314, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952184525, "dur":3030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952187555, "dur":5423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1649903952192982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952192993, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1649903952194275, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1649903952194355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952194359, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1649903952195976, "dur":21074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate.exe" }}
+,{ "pid":12345, "tid":14, "ts":1649903952217057, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952217070, "dur":36475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate.exe" }}
+,{ "pid":12345, "tid":14, "ts":1649903952253568, "dur":24743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952278321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952278330, "dur":4806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952283578, "dur":54851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952338436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952338446, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952339339, "dur":65681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952405024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952405031, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952406856, "dur":2097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952408957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952408963, "dur":7756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952416744, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952417514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952417522, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952418420, "dur":65129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952483579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952483589, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952484618, "dur":73734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952558357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952558367, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952559501, "dur":137504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952697010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649903952697017, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649903952698558, "dur":73245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952184330, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952184529, "dur":3015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952187545, "dur":6635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1649903952194183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952194196, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1649903952194810, "dur":111606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952306420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952306426, "dur":15957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952322413, "dur":22021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952344439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952344449, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952345249, "dur":27812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952373065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952373072, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952375487, "dur":86292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952461783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952461790, "dur":692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952462507, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952463025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952463031, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952463638, "dur":100687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952564330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952564340, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952565144, "dur":99122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952664270, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649903952664279, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649903952665688, "dur":106104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952184346, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952184531, "dur":3009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952187541, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1649903952187738, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952192664, "dur":134031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1649903952326724, "dur":27433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952354164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952354179, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952354995, "dur":60713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952415711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952415716, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952417631, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952418191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952418197, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952418856, "dur":68405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952487264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952487272, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952488089, "dur":71695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952559787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952559795, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952560544, "dur":38642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952599192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952599202, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952600004, "dur":74251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952674262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649903952674271, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/windo/Documents/Week12/VRTemplate_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649903952675303, "dur":96497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649903952774339, "dur":1265, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1649903952808538, "dur": 620, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649903952808192, "dur": 981, "ph": "X", "name": "Write chrome-trace events", "args": {} },
